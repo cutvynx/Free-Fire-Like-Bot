@@ -22,7 +22,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # === CONFIG ===
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8725864435:AAF8U2PvY8Vw52w93HHn-_DmnHDsHibXc9M")
 
 if not BOT_TOKEN:
     logger.error("❌ BOT_TOKEN not found! Please set your bot token in environment variables.")
@@ -30,7 +30,7 @@ if not BOT_TOKEN:
 
 REQUIRED_CHANNELS = ["@cutvynxfree"]
 GROUP_JOIN_LINK = "https://t.me/cutvynx"
-OWNER_ID = your tg user id (integer)    #Example: 6282811167
+OWNER_ID = 6878781707   #Example: 6282811167
 OWNER_USERNAME = "@cutvynxsmm"
 
 bot = telebot.TeleBot(BOT_TOKEN)
